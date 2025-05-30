@@ -3,5 +3,5 @@ services:
     name: fougnibk-backend
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "python form/app.py"
+    startCommand: "python forms/app.py"
     plan: free
